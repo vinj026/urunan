@@ -10,7 +10,7 @@
 
 ## Stack
 
-Nuxt 3 · JavaScript · Tailwind CSS · shadcn/ui · Vercel
+Nuxt 3 · JavaScript · Tailwind CSS 
 
 ---
 
