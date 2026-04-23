@@ -1,75 +1,38 @@
-# Nuxt Minimal Starter
+# Urunan
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+> Patungan tanpa awkward.
 
-## Setup
+<!-- ![Urunan Demo](./docs/demo.gif) -->
 
-Make sure to install dependencies:
+**[🚀 Live Demo](https://urunan.vercel.app)**
+
+---
+
+## Stack
+
+Nuxt 3 · JavaScript · Tailwind CSS · shadcn/ui · Vercel
+
+---
+
+## Fitur
+
+- Buat sesi patungan dengan nama acara dan peserta
+- Input item tagihan, assign per orang (bukan cuma bagi rata)
+- Pilih siapa yang nalangin
+- Auto-kalkulasi siapa utang berapa ke siapa
+- Share link — semua data di-encode ke URL, tanpa login, tanpa database
+
+---
+
+## Run Locally
 
 ```bash
-# npm
+git clone https://github.com/vinj026/urunan.git
+cd urunan
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+---
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+**[vinjo.me](https://vinjo.me) · [github.com/vinj026](https://github.com/vinjo26)**
