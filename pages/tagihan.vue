@@ -43,8 +43,8 @@ function handleHitung() {
         </button>
 
         <div class="space-y-0.5">
-          <h1 class="text-[22px] font-semibold text-white tracking-tight leading-none">Detail Tagihan</h1>
-          <p class="text-[14px] text-[#555] font-medium mt-2">{{ sesi.nama }} ({{ sesi.peserta.length }} Orang)</p>
+          <h1 class="text-[28px] font-semibold text-white tracking-tight leading-none">Detail Tagihan</h1>
+          <p class="text-[16px] text-[#555] font-medium mt-2">{{ sesi.nama }} ({{ sesi.peserta.length }} Orang)</p>
         </div>
 
 

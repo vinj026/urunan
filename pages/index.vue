@@ -50,8 +50,8 @@ onMounted(() => {
     <!-- Main Content -->
     <main class="flex-1 overflow-y-auto px-5 pt-6 space-y-6 no-scrollbar bg-black">
       <header class="space-y-1">
-        <h1 class="text-[22px] font-semibold text-white tracking-tight leading-none">Buat Tagihan</h1>
-        <p class="text-[14px] text-text-tertiary mt-2">Tagih tanpa awkward.</p>
+        <h1 class="text-[28px] font-semibold text-white tracking-tight leading-none">Buat Tagihan</h1>
+        <p class="text-[16px] text-text-tertiary mt-2">Tagih tanpa awkward.</p>
       </header>
 
       <div class="space-y-6">

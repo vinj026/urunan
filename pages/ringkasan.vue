@@ -88,8 +88,8 @@ function handleSesiBaru() {
       <!-- KONTEN SCROLL (nama acara, transfer cards, sudah bayar, rincian) -->
       <div class="px-5 pt-6 flex flex-col gap-[20px]">
         <header>
-          <h1 class="text-[18px] font-semibold text-white tracking-tight leading-none mb-1">{{ sesi.nama }}</h1>
-          <div class="h-[1px] w-6 bg-[#222] mt-[4px]"></div>
+          <h1 class="text-[28px] font-semibold text-white tracking-tight leading-none mb-1">{{ sesi.nama }}</h1>
+          <div class="h-[1px] w-6 bg-[#222] mt-[6px]"></div>
         </header>
 
         <!-- Section 1: Transfer -->
@@ -152,7 +152,7 @@ function handleSesiBaru() {
                 <div class="flex justify-between items-center mb-1">
                   <h3 class="text-[12px] font-medium uppercase tracking-widest text-[#888]">{{ p }}</h3>
                   <span class="text-[12px] font-mono font-medium text-primary/80">{{ formatRupiah(breakdown[p])
-                    }}</span>
+                  }}</span>
                 </div>
 
                 <!-- Item List (Ultra-Compact) -->
