@@ -6,7 +6,7 @@ export function hitungTagihanPerOrang(sesi) {
         const harga = Number(item.harga) || 0
         const jumlahPeserta = item.peserta?.length || 0
         if (jumlahPeserta > 0) {
-            const porsi = harga / jumlahPeserta
+            const porsi = Math.ceil(harga / jumlahPeserta)
             item.peserta.forEach(p => {
                 if (hasil[p] !== undefined) {
                     hasil[p] += porsi
@@ -31,7 +31,7 @@ export function hitungTransaksi(sesi) {
                 dataTransaksi.push({
                     dari: nama,
                     ke: pembayar,
-                    jumlah: jumlah
+                    jumlah: Math.ceil(jumlah)
                 })
             }
         }
@@ -40,8 +40,9 @@ export function hitungTransaksi(sesi) {
     return dataTransaksi
 }
 
-export function formatRupiah(number) {
-    return 'Rp ' + Number(number).toLocaleString('id-ID')
+export function formatRupiah(angka) {
+    const integer = Math.ceil(angka)
+    return 'Rp ' + integer.toLocaleString('id-ID')
 }
 
 export function getInisial(nama, semuaPeserta = []) {
